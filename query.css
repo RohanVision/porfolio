@@ -1,0 +1,41 @@
+
+
+/*small phones to small tablets: from 481px to 767px*/
+
+@media only screen and (min-width: 768px) {
+	.intro-data {
+		width: 50%;
+	}
+
+	.abt-img, .abt-info{float: left;}
+	.abt-img {width: 41.66666667%;}
+	.abt-info {width: 58.33333333%;}
+	.top-info p {width: 100%;}
+
+	.bot-info{padding: 0;}
+	.abt-contact {
+		width: 32%;
+	    float: left;
+	    margin-right: 5px;
+	    margin-bottom: 0;
+	}
+
+	.block-wrapper{
+	    width: 33.3333333333%;
+	    float: left;		
+	}
+
+	.blocks-wrapper {
+	    width: 50%;
+	    float: left;		
+	}
+
+	.blocks-wrapper:last-child { margin-left: 25%;}
+}
+
+@media only screen and (min-width: 992px) {
+	.abt-info {width: 41.66666667%}
+	.blocks-wrapper {width: 33.3333333333%;}
+	.blocks-wrapper:last-child { margin-left: 0;}
+}
+
